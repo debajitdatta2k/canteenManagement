@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <?php
-//    include("config.php");
     session_start();
+    //this .php file is for managing the customers
 
     if($_SERVER["REQUEST_METHOD"] == "POST") {
-// username and password sent from form 
    define('DB_SERVER', 'localhost');
    define('DB_USERNAME', 'root');
    define('DB_PASSWORD', '');

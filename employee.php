@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <?php
-//    include("config.php");
+
     session_start();
 
     if($_SERVER["REQUEST_METHOD"] == "POST") {
-// username and password sent from form 
+
    define('DB_SERVER', 'localhost');
    define('DB_USERNAME', 'root');
    define('DB_PASSWORD', '');
@@ -20,7 +20,8 @@
         $error="Enter details.";
         $count = mysqli_num_rows($result);
 
-// If result matched $myusername and $mypassword, table row must be 1 row
+// If result matched $myusername and $mypassword, 
+        //table row must be 1 row
 
         if($count == 1) {
             $_SESSION['login_user'] = $myusername;
