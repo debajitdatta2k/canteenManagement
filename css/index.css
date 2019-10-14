@@ -15,8 +15,8 @@ body{
 }
 .column1{
     float:left;
-    width: 50%;
-    padding-top:0%;
+    width: 55%;
+    padding-top:1%;
     margin: auto;
     text-align: left;
   }
@@ -26,6 +26,7 @@ body{
 .btncolor{
     background-color: #18314f;
 }
+//styling heading1
 h1{
     font-size: 40px;
 }
@@ -55,7 +56,7 @@ h1{
     clear: both;
   }
 .mycontainer{
-    padding: 5%;
+    padding: 7%;
     margin: auto;
     margin-top:5%; 
     width:80%;
