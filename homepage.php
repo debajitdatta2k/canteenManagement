@@ -77,6 +77,7 @@
                 </div>
                 <div class="col span-1-of-5 cities-box">
                    <?php 
+                        //sql query to find rate
                         $mrate = "select max(avrat) from (select cid, sum(rating)/count(cid) as avrat from feedback group by cid) as t";
                         $m = mysqli_query($db,$mrate);
                         $a = mysqli_fetch_array($m, MYSQLI_ASSOC);
@@ -102,6 +103,7 @@
         </section>
         <section class="section-plans">
             <div class="row">
+                #dashboard begins
                 <h2>DASHBOARD</h2>
             </div>
             <div class="row">
