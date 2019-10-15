@@ -28,7 +28,7 @@
         </section>
         <section class="section-cant">
             <div class="row">
-                <h3 style="margin-left:32vw;"><strong>SJT CANTEEN</strong></h3>
+                <h3 style="margin-left:30vw;"><strong>SJT CANTEEN</strong></h3>
                     <?php
                         $q = "Select * from feedback where cid=919";
                         $res = mysqli_query($db,$q);
@@ -88,7 +88,7 @@
                 <div class="col">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
                 <a style="text-decoration: none; color: white;" href="givefeed.php">
                     <div class="col span-5-of-11" style="box-shadow: 4px 4px 10px rgba(12, 10, 72, 0.15); text-align: center; padding: 1%;border: 2px solid #18314f;background-color: #18314f;">
-                        GIVE FEEDBACK
+                        GIVE FEEDBACK!
                     </div>
                 </a>
             </div>
